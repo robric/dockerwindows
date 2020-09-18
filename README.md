@@ -4,12 +4,15 @@
 
 Install the docker desktop <https://www.docker.com/get-started>
 
+
+This should be simpler than that
+
 * Get latest centos image
 
 ```
 PS C:\Users\rroberts\Documents> docker image pull centos
 Using default tag: latest
-latest: Pulling from library/centos
+latest: Pulling from library/centos²
 3c72a8ed6814: Pull complete                                                       Digest: sha256:76d24f3ba3317fa945743bb3746fbaf3a0b752f10b10376960de01da70685fbd
 Status: Downloaded newer image for centos:latest
 docker.io/library/centos:latest
