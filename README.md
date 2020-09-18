@@ -1,6 +1,9 @@
-# Image installation
+# Image Preparation
 
-* Install docker on windows from docker.io
+* Install docker on windows from docker.com
+
+Install the docker desktop <https://www.docker.com/get-started>
+
 * Get latest centos image
 
 ```
@@ -11,17 +14,22 @@ latest: Pulling from library/centos
 Status: Downloaded newer image for centos:latest
 docker.io/library/centos:latest
 ```
+
 * Check image 
+  
 ```
 PS C:\Users\rroberts\Documents> docker image list
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 centos              latest              0d120b6ccaa8        5 weeks ago         215MB
 ```
+
 * Start the centos container
+
 ```
 PS C:\Users\rroberts\Documents> docker run -itd centos bash
 24ea51ba16921e06b4f21bf6c3fa021811e068f491d6510b7cce0941f44fb02c
 ```
+
 * 
 
 PS C:\Users\rroberts\docker\dockerbuild> docker build .
