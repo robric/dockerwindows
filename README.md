@@ -10,6 +10,8 @@ I am using the following:
 * ssh (dedicated port 1022) to connect to the container
 * shared volume to exchange file with my windows computer
 
+And well that was also a way to get a better grasp at building dockers (i.e. crafting my own dockerfile) :-)
+
 ## Docker installation
 
 * Install  docker desktop from <https://www.docker.com/get-started>
