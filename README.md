@@ -15,7 +15,7 @@ I am using the following:
 * Install  docker desktop from <https://www.docker.com/get-started>
 * Allow file sharing in docker setup menu as per screen capture below
 
-![](pictures/docker-fs.jpg)
+![](pictures/docker-fs.JPG)
 
 
 ## Container launch
