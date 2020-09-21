@@ -97,14 +97,6 @@ Here I am using a port redirection from 1022 to 22 and map a shared volume to a 
 
 ```
 C:\Users\rroberts\Documents\GitHub\dockerwindows>docker run -itd --restart always -p 1022:22 -v C:/Users/rroberts/docker:/root/drive centos-ssh  
+
 dd1ae25265fac6612891edd72c6df84e73165673d2622940d46a9a56e1d4beaf
 ```
-
-
-
-
-# dockerwindows
-
-In docker setup, define shared folder with windows to so as to leverage great linux tool (git/ansible/programmation)
-
-
