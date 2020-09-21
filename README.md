@@ -10,14 +10,15 @@ I am using the following:
 * ssh (dedicated port 1022) to connect to the container
 * shared volume to exchange file with my windows computer
 
-## Image Preparation
+## Docker installation
 
-* Install docker on windows from docker.com
+* Install  docker desktop from <https://www.docker.com/get-started>
+* Allow file sharing in docker setup menu as per screen capture below
 
-Install the docker desktop <https://www.docker.com/get-started>
+![](pictures/docker-fs.jpg)
 
 
-This should be simpler than that
+## Container launch
 
 * Clone this where you want it to be and access the dockerwindows folder.
 
