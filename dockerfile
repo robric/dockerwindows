@@ -7,7 +7,7 @@ RUN yum update -y \
   && yum clean all
 RUN ssh-keygen -A
 RUN mkdir /var/run/sshd
-RUN echo 'root123' | chpasswd
+RUN echo "root:root123" | chpasswd
 RUN sed -i 's/#*PermitRootLogin prohibit-password/PermitRootLogin yes/g' /etc/ssh/sshd_config
 RUN mkdir drive
 VOLUME drive
