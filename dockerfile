@@ -5,6 +5,7 @@ RUN yum update -y \
   git \
   openssh-server \
   && yum clean all
+RUN dnf install -y ansible                                                                                                                                                                                                    
 RUN ssh-keygen -A
 RUN mkdir /var/run/sshd
 RUN echo "root:root123" | chpasswd
